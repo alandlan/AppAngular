@@ -19,6 +19,7 @@ import { rootRouterConfig } from './app.routes';
 import { DataBindingComponent } from './demos/data-binding/data-binding.component';
 import { ProdutoService } from './produtos/produtos.service';
 import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
+import { DoComponent } from './HowTo/do/do.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.co
     SobreComponent,
     ContatoComponent,
     DataBindingComponent,
-    ListaProdutoComponent
+    ListaProdutoComponent,
+    DoComponent
   ],
   imports: [
     BrowserModule,
